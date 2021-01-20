@@ -1,0 +1,9 @@
+{
+    "name": "Cassio/MetaLang",
+    "description": "Magento 2 module to show the right lang tag in the header.",
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": { "Cassio\\MetaLang\\": "" },
+        "files": [ "registration.php" ]
+    }
+}

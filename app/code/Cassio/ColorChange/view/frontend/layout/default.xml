@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="head.additional">
+        <block class="Cassio\ColorChange\Block\Index" cacheable="false" name="cassio.colorchange.index" as="cassio_colorchange_index" template="Cassio_ColorChange::color.phtml"/>
+    </referenceBlock>
+</page>

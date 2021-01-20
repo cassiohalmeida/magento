@@ -1,0 +1,9 @@
+{
+    "name": "Cassio/ColorChange",
+    "description": "Magento 2 module change button colors",
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": { "Cassio\\ColorChange\\": "" },
+        "files": [ "registration.php" ]
+    }
+}

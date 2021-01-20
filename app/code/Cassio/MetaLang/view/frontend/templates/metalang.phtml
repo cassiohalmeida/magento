@@ -1,0 +1,5 @@
+<?php if($this->isUsedInMultipleStores()): ?>
+    <?php foreach ($this->getStores() as $storeId): ?>
+        <link rel='alternate' hreflang='<?php echo $this->getStoreLocaleCode($storeId); ?>' href='<?php echo $this->getStorePageUrl($storeId); ?>' />
+    <?php endforeach; ?>
+<?php endif;?>
